@@ -1,0 +1,40 @@
+package block;
+import java.util.concurrent.*;
+public class messproc implements Runnable {
+
+		int mes;
+		
+		public messproc(int mes) {
+			super();
+			this.mes = mes;
+		}
+
+
+
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		System.out.println(Thread.currentThread().getName()+"[Recieved] Message"+mes);
+		restomes();
+		System.out.println(Thread.currentThread().getName()+"[done] processing Message"+mes);
+		
+		
+		
+		
+	}
+	public void restomes() {
+		try {
+			Thread.sleep(3000);
+			System.out.println(" unable  to processing Message"+mes);
+		
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+	
+
+	}
+

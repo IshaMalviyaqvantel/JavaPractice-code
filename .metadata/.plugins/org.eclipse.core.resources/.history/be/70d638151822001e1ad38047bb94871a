@@ -1,0 +1,11 @@
+package collection_IN_java;
+
+public class list {
+	
+	public static void main(String args[]) {
+	// Arraylist 
+		ArrayList wds=new ArrayList();
+		
+	}
+
+}

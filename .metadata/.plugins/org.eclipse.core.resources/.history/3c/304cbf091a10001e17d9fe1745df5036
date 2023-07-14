@@ -1,0 +1,16 @@
+package lambdasfunc;
+
+public class appl {
+	public static void main(String args[]) {
+		human h=new human();
+		robot r=new robot();
+		h.walk();
+		r.walk();
+walkable(new walkinterface() {
+	
+});
+	}
+public static void walkable(walkinterface w) {
+	w.walk();
+}
+}

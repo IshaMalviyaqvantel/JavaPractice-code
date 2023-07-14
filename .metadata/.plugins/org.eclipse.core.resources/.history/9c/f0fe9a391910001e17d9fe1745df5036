@@ -1,0 +1,8 @@
+package lambdasfunc;
+
+public class robot {
+	public void walk() {
+		 System.out.println("robot walking");
+	 }
+
+}

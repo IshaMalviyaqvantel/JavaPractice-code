@@ -1,0 +1,11 @@
+package java1;
+
+public class zoo {
+
+	public static void main(String[] args) {
+		animal a1=new animal(5, bid , 10);
+		// TODO Auto-generated method stub
+
+	}
+
+}

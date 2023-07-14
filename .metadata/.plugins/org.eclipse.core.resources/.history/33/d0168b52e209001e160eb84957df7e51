@@ -1,0 +1,19 @@
+package human;
+import java.util.*;
+public class stringimp {
+	public static void main(String args[]) {
+		String st="I m Isha mal"+" Isha working at qvantal"+"Isha do serially & sincerely ";
+		
+	
+	}
+	public static  void   stcon(String st) {
+		int i=0;
+		while(true) {
+			int f=st.indexOf("isha",i);
+			int s=f+4;
+			int e= st.indexOf(" ", s);
+			System.out.println(st.substring(s,e));
+			int i=e+1;
+		}
+	}
+}

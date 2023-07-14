@@ -1,0 +1,9 @@
+package lambdasfunc;
+
+public interface walkinterface {
+	public default void walk() {
+		System.out.println("walking.........");
+		
+	}
+
+}

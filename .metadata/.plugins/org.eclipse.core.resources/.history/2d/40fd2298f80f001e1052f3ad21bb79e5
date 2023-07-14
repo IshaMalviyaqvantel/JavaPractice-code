@@ -1,0 +1,12 @@
+package block;
+import java.util.conc;
+
+public class producer  implements Runnable {
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

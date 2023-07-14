@@ -1,0 +1,15 @@
+package human;
+import java.util.*;
+public class stringimp {
+	public static void main(String args[]) {
+  Scanner sc= new Scanner(System.in);
+  int a=sc.nextInt();
+  int c=0;
+  while(c<=a) {
+	  System.out.println("hello Isha "+c);
+	  c=c+1;
+	  break;
+  }
+	
+	}
+}

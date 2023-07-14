@@ -1,0 +1,9 @@
+package human;
+
+public class stringimp {
+	public static void main(String args[]) {
+	String st="hello world";
+	System.out.println(st);
+	}
+
+}

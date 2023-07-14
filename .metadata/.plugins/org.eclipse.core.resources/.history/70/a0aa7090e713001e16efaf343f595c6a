@@ -1,0 +1,15 @@
+package lambdasfunc;
+
+public class appl {
+	public static void main(String args[]) {
+		cal sum=(a,b) -> a+b;
+		System.out.println(sum.cal(5, 5));
+		
+	}
+
+}
+
+interface cal
+{
+	public int cal(int a,int b);
+}

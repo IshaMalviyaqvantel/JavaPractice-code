@@ -1,0 +1,27 @@
+package block;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+public class thrpool {
+
+	public static void main(String[] args) {
+		
+		// TODO Auto-generated method stub
+		ExecutorService ex= Executors.newFixedThreadPool(2);
+		Runnable p=new messproc(2);
+		ex.execute(p);
+		 Runnable p1=new messproc(3);
+		 ex.execute(p1);
+		 Runnable p2=new messproc(4);
+		 ex.execute(p2);
+		 
+		// ex.shutdown();
+		while(ex.isTerminated()) {
+			 System.out.println("submit all task");
+				
+		 }
+
+	}
+
+
+
+}

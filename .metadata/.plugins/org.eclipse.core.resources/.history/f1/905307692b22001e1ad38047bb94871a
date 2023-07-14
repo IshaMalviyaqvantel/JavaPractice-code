@@ -1,0 +1,22 @@
+package collection_IN_java;
+import java.util.*;
+
+public class Map {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		HashMap <Integer,String>hm=new HashMap<Integer,String>();
+		hm.put(1, " ram");
+		hm.put(8, "charan");
+		hm.put(5, "cherry");
+		hm.put(6, "raja");
+		
+		
+		for(int num: hm.keySet()) {
+			System.out.println(num);
+		}
+		
+
+	}
+
+}

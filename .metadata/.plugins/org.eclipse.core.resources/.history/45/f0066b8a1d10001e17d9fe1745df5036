@@ -1,0 +1,14 @@
+package lambdasfunc;
+
+public class appl {
+	public static void main(String args[]) {
+		w( ()  -> { System.out.println("hello world"));
+		
+	}
+
+public static void w(walkinterface wa) {
+	wa.walk();
+}
+	
+}
+

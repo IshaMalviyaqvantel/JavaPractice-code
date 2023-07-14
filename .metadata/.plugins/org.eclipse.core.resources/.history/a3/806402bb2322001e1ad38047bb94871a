@@ -1,0 +1,10 @@
+package collection_IN_java.travse_list;
+
+public class animal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

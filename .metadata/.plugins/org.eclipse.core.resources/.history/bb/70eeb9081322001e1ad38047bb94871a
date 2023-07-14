@@ -1,0 +1,11 @@
+package java_Basic;
+
+public class string {
+
+	public static void main(String[] args) {
+		String st="Isha";
+		System.out.println(st);
+		System.out.println("The length of given string :  "+st.length());
+	}
+
+}

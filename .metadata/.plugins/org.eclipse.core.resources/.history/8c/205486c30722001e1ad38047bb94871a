@@ -1,0 +1,16 @@
+package java_Basic;
+
+public class array {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int [] ar=new int[2];
+		ar[0]=2;
+		ar[1]=4;
+		ar[2]=6;
+		System.out.println(ar);
+		System.out.println(ar[1]);
+
+	}
+
+}

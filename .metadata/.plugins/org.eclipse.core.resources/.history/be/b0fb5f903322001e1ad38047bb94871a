@@ -1,0 +1,12 @@
+package salecar;
+
+public class customer {
+	String name;
+	String address;
+	double conhand;
+	
+ public void purchase(vehicle vec, employee emp, boolean fin ) {
+	 
+ }
+
+}

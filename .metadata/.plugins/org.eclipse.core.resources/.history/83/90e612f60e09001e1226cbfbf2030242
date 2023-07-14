@@ -1,0 +1,39 @@
+package java1;
+
+public class classcontain {
+public static void main(String args[])
+{
+	 human ram;
+	ram=new human();
+	ram.name="ram charan";
+	ram.age=27;
+	ram.height=65;
+	ram.eyecolor="dark brown";
+	ram.Speak();
+	
+	ram.eat();
+	ram.walk();
+	ram.work();
+	
+	human isha =new human();
+	isha.name="Isha Malviya";
+	isha.age=21;
+	isha.height=54;
+	isha.eyecolor="black";
+	isha.Speak();
+	isha.eat();
+	isha.walk();
+	isha.work();
+	System.out.println("**********************************************************************************");
+	
+	human h1=new human();
+	human h2=new human();
+	human h3=new human();
+	h1.Speak();
+	System.out.println("\n");
+	h2.Speak();
+	System.out.println("\n");
+
+	h3.Speak();
+}
+}

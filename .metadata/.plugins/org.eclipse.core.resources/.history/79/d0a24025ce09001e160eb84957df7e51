@@ -1,0 +1,10 @@
+package human;
+
+public class stringimp {
+	public static void main(String args[]) {
+	String st="ABCDE";
+	String stnew= st.substring(5);
+	System.out.println(stnew);
+	}
+
+}

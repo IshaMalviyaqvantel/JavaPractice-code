@@ -1,0 +1,22 @@
+package lambdasfunc;
+
+public class appl {
+	public static void main(String args[]) {
+		cal sum=(a,b) -> a+b;
+		System.out.println(sum.cal(5, 5));
+		
+	}
+	cal zerodiv=(a,b)-> {
+			if(a==0)
+			{
+				return 0;
+			}
+			return a/b;
+	};
+
+}
+
+interface cal
+{
+	public int cal(int a,int b);
+}

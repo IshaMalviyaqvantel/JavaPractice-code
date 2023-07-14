@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;seq&apos; to &apos;prod&apos;&#x0D;&#x0A;- Original project: &apos;thr&apos;&#x0D;&#x0A;- Original element: &apos;seq&apos;&#x0D;&#x0A;- Renamed element: &apos;prod&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;seq&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{seq.java[seq" matchStrategy="1" name="prod" qualified="false" references="true" similarDeclarations="false" stamp="1687245236410" textual="false" version="1.0"/>
+</session>

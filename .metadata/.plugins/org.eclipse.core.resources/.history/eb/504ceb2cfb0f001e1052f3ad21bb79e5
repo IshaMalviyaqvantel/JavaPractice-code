@@ -1,0 +1,30 @@
+package block;
+import java.util.concurrent.*;
+
+public class cons implements Runnable{
+	
+	BlockingQueue<Integer> bq;
+	
+
+	public cons(BlockingQueue<Integer> bq) {
+		super();
+		this.bq = bq;
+	}
+
+
+	@Override
+	public void run() {
+		while(true) {
+			try {
+				Thread.sleep(100);
+				System.out.println("Answer the question "+ bq.take());
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		
+		
+	}
+
+}

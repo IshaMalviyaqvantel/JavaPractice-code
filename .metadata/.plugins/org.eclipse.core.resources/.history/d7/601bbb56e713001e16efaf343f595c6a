@@ -1,0 +1,17 @@
+package lambdasfunc;
+
+public class appl {
+	public static void main(String args[]) {
+		
+		int w=10;
+		drawable d2= ()->{
+			System.out.println("drawing  " +w);
+		};
+	
+	d2.draw();
+	}
+
+}
+
+
+

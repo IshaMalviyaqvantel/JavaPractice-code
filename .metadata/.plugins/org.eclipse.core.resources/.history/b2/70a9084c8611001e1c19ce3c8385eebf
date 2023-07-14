@@ -1,0 +1,8 @@
+package lambdasfunc;
+
+public interface drawable {
+	public void draw() {
+		System.out.println("what are you draw ??");
+	}
+
+}

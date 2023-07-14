@@ -1,0 +1,32 @@
+package block;
+import java.util.concurrent.*;
+
+public class pro implements Runnable {
+int qno;
+BlockingQueue<Integer> bq;
+
+	public pro(BlockingQueue<Integer> bq) {
+	super();
+	this.bq = bq;
+}
+
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+		synchronized (this) {
+			int nextq =qno++;
+			System.out.println("new Question "+ qno);
+			try {
+				bq.put(nextq);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+		}
+		
+	}
+
+}
